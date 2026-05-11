@@ -6,13 +6,23 @@ h2 {
 }
 
 .form-container {
-    background-image: url("/images/pexels-aaronburden-36692234.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20p;
+}
+form{
+    position: absolute;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
 }
 
 #contact-form {
@@ -23,8 +33,7 @@ h2 {
 }
 
 label {
-    color: white;
-    text-transform: bold;
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 5px;
 }
