@@ -6,10 +6,13 @@ h2 {
 }
 
 .form-container {
+    background-image: url("/images/pexels-aaronburden-36692234.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20p;
 }
 
 #contact-form {
@@ -20,6 +23,8 @@ h2 {
 }
 
 label {
+    color: white;
+    text-transform: bold;
     margin-top: 15px;
     margin-bottom: 5px;
 }
@@ -42,4 +47,5 @@ input[type="submit"] {
     cursor: pointer;
     align-self: flex-start;
     min-width: 120px;
+    margin-bottom: 10px;
 }
