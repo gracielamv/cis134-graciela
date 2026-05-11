@@ -1,0 +1,43 @@
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"],
+textarea {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px;
+    cursor: pointer;
+    align-self: flex-start;
+    min-width: 120px;
+}

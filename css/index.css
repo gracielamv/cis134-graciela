@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;                     
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*----------------------------------------*/
+
+.content{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;                
+}
+
+[class^="slide-"] {
+    min-width: 100%;        
+    min-height: 400px;              
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} /* try to use javascript to be able to move the slides */
+
+.slideshow-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dot {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    bottom: -50px; /*????*/
+}
