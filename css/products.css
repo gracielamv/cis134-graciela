@@ -1,6 +1,8 @@
 /* Read Unit 6 Instructions as finish the css for all three pages, my bad */
 h2 {
     text-align: center;
+    text-transform: uppercase;
+    color: #2b4570;
 }
 
 .grid-container {
@@ -11,6 +13,7 @@ h2 {
     justify-items: center;
     align-items: start;
     padding: 20px;
+    /* background color maybe*/
 }
 
 .product-item {
@@ -26,5 +29,17 @@ img{
 }
 
 button{
+    background-color:#c3d5d2; 
+    border-color: #94c2a4;
+    border-radius: 3px;
+    color: #7180ac;
     margin-top: 15px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 13px;
+}
+button:hover{
+    background-color: #94c2a4; 
+    border-color: #70b77d;
+    color: #ffff;
 }
