@@ -1,11 +1,22 @@
 /* Consistent throughout all three pages*/
+html, body{
+    background-color: #ebe9e5;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 10px 10px;
+    padding: 10px;
     overflow: hidden;
+    border-bottom: 5px solid #70b77d;
+    margin-bottom: 30px;
 }
+
+h1{
+    color: #f0396d;
+}
+
 nav img{
     width: 25px;
     height: 25px;
@@ -19,13 +30,21 @@ nav ul {
 a{
     text-decoration: none;
     text-transform: uppercase;
+    color: #2b4570;
+    font-weight: bold;
+}
+a:hover{
+    color: #7180ac;
 }
 
 footer {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-top: 20px;
+    padding-top: 5px;
+    background-color: #70b77d;
+    color: #2b4570;
 }
 
 @media screen and (min-width: 500px) { 
@@ -33,7 +52,6 @@ footer {
         display: none;
     } 
 } 
-
 @media screen and (max-width: 768px) {
     .icon {
         margin-bottom: 15px;
