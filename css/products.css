@@ -3,6 +3,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     color: #2b4570;
+    font-family: "Yeseva One", serif;
 }
 
 .grid-container {
@@ -13,7 +14,8 @@ h2 {
     justify-items: center;
     align-items: start;
     padding: 20px;
-    /* background color maybe*/
+    /* background color maybe? */
+    background-color: rgb(43, 69, 112, 0.05);
 }
 
 .product-item {
@@ -32,11 +34,12 @@ button{
     background-color:#c3d5d2; 
     border-color: #94c2a4;
     border-radius: 3px;
-    color: #7180ac;
+    color: #2b4570;
     margin-top: 15px;
     cursor: pointer;
     padding: 5px;
     font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
 }
 button:hover{
     background-color: #94c2a4; 

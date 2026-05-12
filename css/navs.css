@@ -1,6 +1,6 @@
 /* Consistent throughout all three pages*/
 html, body{
-    background-color: #ebe9e5;
+    background-color: #e6eaf4;
 }
 
 nav {
@@ -15,6 +15,9 @@ nav {
 
 .title{
     color: #f0396d;
+    font-family: "Yeseva One", serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 nav img{
@@ -32,6 +35,9 @@ a{
     text-transform: uppercase;
     color: #2b4570;
     font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 a:hover{
     color: #7180ac;
@@ -45,6 +51,9 @@ footer {
     padding-top: 5px;
     background-color: #70b77d;
     color: #2b4570;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 @media screen and (min-width: 500px) { 
